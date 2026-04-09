@@ -128,6 +128,8 @@ Detailed documentation is available in the [docs](docs/) directory:
 - [Technical Overview](docs/technical-overview.md)
 - [API Reference](docs/api-reference.md)
 - [Deployment Guide](docs/deployment.md)
+  
+This project is currently under development. Documentation will be added in future updates.
 
 ## 📝 License
 
@@ -137,9 +139,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 </div>
 # adaptive-ai-honeypot
-📚 Documentation
 
-This project is currently under development. Documentation will be added in future updates.
+
 
 👨‍💻 Note
 
