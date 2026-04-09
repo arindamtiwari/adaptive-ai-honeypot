@@ -137,3 +137,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 </div>
 # adaptive-ai-honeypot
+📚 Documentation
+
+This project is currently under development. Documentation will be added in future updates.
+
+👨‍💻 Note
+
+This project is created for academic learning and cybersecurity exploration purposes.
