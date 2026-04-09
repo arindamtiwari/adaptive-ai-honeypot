@@ -74,7 +74,7 @@ graph TD
 ### Step-by-Step Setup
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Varunpoojari/adaptive-ai-honeypot.git
+   git clone https://github.com/arindamtiwari/adaptive-ai-honeypot.git
    cd adaptive-ai-honeypot
    ```
 
