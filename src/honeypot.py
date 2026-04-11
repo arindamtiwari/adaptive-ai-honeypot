@@ -1,12 +1,8 @@
 import socket
-import datetime
+from datetime import datetime
 
 HOST = '0.0.0.0'
 PORT = 2222
-
-def log_connection(addr):
-    with open("logs/honeypot.log", "a") as f:
-        f.write(f"{datetime.datetime.now()} - Connection from {addr}\n")
 
 def start_honeypot():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -17,11 +13,16 @@ def start_honeypot():
 
     while True:
         client, addr = server.accept()
-        print(f"[!] Connection from {addr}")
+        ip, port = addr
 
-        log_connection(addr)
+        print(f"[!] Connection from {ip}:{port}")
 
-        client.send(b"Access Denied\n")
+        log_entry = f"{datetime.now()} | IP: {ip} | Port: {port}\n"
+
+        with open("logs/honeypot.log", "a") as log:
+            log.write(log_entry)
+
+        client.send(b"Fake SSH Service\nLogin failed\n")
         client.close()
 
 if __name__ == "__main__":
