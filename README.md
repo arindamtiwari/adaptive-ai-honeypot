@@ -2,8 +2,7 @@
 
 [![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub Issues](https://img.shields.io/github/issues/Varunpoojari/adaptive-ai-honeypot.svg)](https://github.com/Varunpoojari/adaptive-ai-honeypot/issues)
+https://github.com/arindamtiwari/adaptive-ai-honeypot/blob/main/README.md
 
 
 ## 📋 Table of Contents
@@ -19,7 +18,7 @@
 
 ## 🔍 Overview
 
-The Adaptive AI Honeypot System is an advanced cybersecurity tool that leverages machine learning and artificial intelligence to create a dynamic, self-learning honeypot environment. By utilizing reinforcement learning and behavioral analysis, the system adapts its responses based on attacker interactions, making it an effective tool for threat intelligence gathering and attack pattern analysis.
+The Adaptive AI Honeypot System is an advanced cybersecurity tool that reinforcement learning and behavioral analysis to create a dynamic, self-learning honeypot environment. By utilizing reinforcement learning and behavioral analysis, the system adapts its responses based on attacker interactions, making it an effective tool for threat intelligence gathering and attack pattern analysis.
 
 ### What Makes It Different?
 - **Adaptive Responses**: Unlike traditional static honeypots, our system learns and evolves.
@@ -94,7 +93,7 @@ graph TD
 ### Basic Operation
 ```bash
 # Start the honeypot
-PYTHONPATH=$PYTHONPATH:. python3 src/core/honeypot.py
+PYTHONPATH=$PYTHONPATH:. python src/honeypot.py
 
 # Monitor logs
 tail -f logs/honeypot_*.log
@@ -114,13 +113,7 @@ Edit `config.yaml` to customize:
 - Always run in a controlled environment
 - Regularly monitor system resources
 - Keep all dependencies updated
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
-- Code style
-- Development process
-- Pull request process
+  
 
 ## 📚 Documentation
 
@@ -137,8 +130,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-</div>
-# adaptive-ai-honeypot
+
 
 
 
