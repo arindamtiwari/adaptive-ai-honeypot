@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-https://github.com/arindamtiwari/adaptive-ai-honeypot/blob/main/README.md
+
 
 
 ## 📋 Table of Contents
@@ -18,7 +18,7 @@ https://github.com/arindamtiwari/adaptive-ai-honeypot/blob/main/README.md
 
 ## 🔍 Overview
 
-The Adaptive AI Honeypot System is an advanced cybersecurity tool that reinforcement learning and behavioral analysis to create a dynamic, self-learning honeypot environment. By utilizing reinforcement learning and behavioral analysis, the system adapts its responses based on attacker interactions, making it an effective tool for threat intelligence gathering and attack pattern analysis.
+This project is a basic honeypot system designed to simulate services and monitor attacker behavior. It captures incoming connections and logs them for analysis, helping in understanding attack patterns in a controlled environment.
 
 ### What Makes It Different?
 - **Adaptive Responses**: Unlike traditional static honeypots, our system learns and evolves.
@@ -33,11 +33,6 @@ The Adaptive AI Honeypot System is an advanced cybersecurity tool that reinforce
   - Service behavior mimicking
   - Adaptive response generation
 
-### Machine Learning Components
-- **Behavioral Analysis Engine**
-  - Pattern recognition
-  - Attack classification
-  - Anomaly detection
 
 ### Security Features
 - **Isolated Environment**
@@ -67,7 +62,6 @@ graph TD
 
 ### Prerequisites
 - Python 3.8+
-- Docker
 - Virtual Environment
 
 ### Step-by-Step Setup
@@ -104,7 +98,6 @@ Edit `config.yaml` to customize:
 - Port configurations
 - Service behaviors
 - Logging options
-- ML model parameters
 
 ## 🛡 Security Considerations
 
